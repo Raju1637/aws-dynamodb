@@ -14,8 +14,8 @@ public class DynamoDbConfig {
 
     public static final String ENDPOINT = "dynamodb.ap-south-1.amazonaws.com";
     public static final String REGION = "ap-south-1";
-    public static final String KEY = "AKIARZXLNIWANII4M2WN";
-    public static final String SECRET = "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";
+    public static final String KEY = ""; // Create new user
+    public static final String SECRET = ""; // Create new secret
 
     @Bean
     public DynamoDBMapper mapper() {
